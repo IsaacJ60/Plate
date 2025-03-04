@@ -1,13 +1,7 @@
-<style>
- 
-</style>
-
-<main class="main">
-  <div class="content">
-    HELLO
-  </div>
-</main>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<router-outlet />
+<!-- src/app/app.component.html -->
+<div class="app-container">
+  <h1>{{ title }}</h1>
+  <app-todo></app-todo>
+  <!-- Using the TodoComponent selector -->
+  <router-outlet></router-outlet>
+</div>
